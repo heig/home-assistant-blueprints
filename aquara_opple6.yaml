@@ -29,7 +29,6 @@ blueprint:
       name: Aqara switch
       description: Aqara switch to use
       selector:
-        device:
           integration: deconz
           manufacturer: LUMI
           model: lumi.remote.b686opcn01
