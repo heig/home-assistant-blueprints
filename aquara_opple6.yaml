@@ -15,10 +15,8 @@ blueprint:
       name: Remote
       description: Opple remote to use
       selector:
-        device:
-          integration: deconz
-          manufacturer: LUMI
-          model: lumi.remote.b686opcn01
+        entity:
+          domain: sensor
     light_1:
       name: Light(s)
       description: The first light(s group) to control
